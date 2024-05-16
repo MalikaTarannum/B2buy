@@ -1,0 +1,1323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post-It</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/home/bee.png" />
+    <link rel="stylesheet" href="./assets/css/common.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/contact.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="wrapper">
+          <div class="header-main-wrapper flex">
+            <div class="header-logo-wrap">
+              <a href="./" class="header-logo-image">
+                <img src="./assets/images/home/logo.png" class="header-image" />
+              </a>
+            </div>
+            <div class="header-list-items-wrap">
+              <ul id="navibar" class="header-list-items flex">
+                <li class="header-list">
+                  <a href="./" class="header-items">home</a>
+                </li>
+                <li class="header-list">
+                  <a href="./product.html" class="header-items">product</a>
+                </li>
+                <li class="header-list">
+                  <a href="./companies.html" class="header-items">companies</a>
+                </li>
+                <li class="header-list">
+                  <a href="./services.html" class="header-items">services</a>
+                </li>
+                <li class="header-list">
+                  <a href="./events.html" class="header-items">events</a>
+                </li>
+                <li class="header-list">
+                  <a href="./newArrival.html" class="header-items">new arrival</a>
+                </li>
+                <!-- <li class="header-list">
+                  <a href="./contact.html" class="header-items">product deals</a>
+                </li>
+                <li class="header-list">
+                  <a href="./contact.html" class="header-items">product videos</a>
+                </li>
+                <li class="header-list">
+                  <a href="./contact.html" class="header-items">service deals</a>
+                </li> -->
+                <li class="header-list">
+                  <a href="./cart.html" class="header-items">
+                    <i class="fa fa-shopping-bag mobile-hidden-bag"></i>
+                  </a>
+                </li>
+                <a href="#" id="close"><i class="fa fa-times"></i></a>
+              </ul>
+            </div>
+            <div class="header-mobile-icon">
+              <a href="./cart.html" class="header-items">
+                <i class="fa fa-shopping-bag"></i>
+              </a>
+              <div class="header-list">
+                <a href="" class="header-items">
+                  <i id="bar" class="fa fa-outdent"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pre-banner">
+      <div class="container">
+        <div class="wrapper">
+          <div class="pre-banner-main-wrapper flex">
+            <div class="custom-select">
+              <select name="USD $" class="f-center-text">
+                <option value="Audi">Products</option>
+                <option value="BMW">Companies</option>
+                <option value="Citroen">Services</option>
+                <option value="Ford">Events</option>
+                <option value="Honda">Honda</option>
+                <option value="Jaguar">Jaguar</option>
+              </select>
+            </div>
+            <div class="search-btn-wrapper flex">
+              <div class="keyword-search-btn">
+                <div class="keyword-search">
+                  <input type="text" placeholder="Keyword" class="keyword" />
+                  <input type="text" placeholder="Search" class="search" />
+                </div>
+              </div>
+              <div class="header-last-text">
+                <a href="./USProducts.html" class="h-last-text">
+                  Find U.S. made products
+                </a>
+                <div class="flag-img">
+                  <a href="./USProducts.html">
+                    <img src="./assets/images/home/us_flag_4.jpeg" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="product-wrapper-btn">
+              <a href="#" class="shop-button">Sell Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="form-details">
+      <div class="container">
+        <div class="wrapper">
+          <div class="post-it-main-wrapper">
+          <div class="post-it-alpha-wrapper">
+            <div class="form-details__alpha-title-wrap">
+              <h2 class="form-details__alpha-title">Post what you want</h2>
+              <span class="form-details__alpha-pre-title"
+                >Post anything you like to, e.g., item you are looking for</span
+              >
+            </div>
+            <div class="post-it-allignment">
+              <div class="form-details__input-wrapper">
+                <label class="input-label-form" for="">message</label>
+                <div class="form-details__textarea-wrap">
+                  <textarea
+                    id=""
+                    cols="30"
+                    rows="10"
+                    placeholder="please enter details"
+                  ></textarea>
+                </div>
+                <label class="input-label-form" for="">your name</label>
+                <div class="form-details__input-wrap">
+                  <input
+                    type="text"
+                    class="form-details__inputs"
+                    placeholder="company name"
+                  />
+                </div>
+                <label class="input-label-form" for="">your email</label>
+                <div class="form-details__input-wrap">
+                  <input
+                    type="text"
+                    class="form-details__inputs"
+                    placeholder="email address"
+                  />
+                </div>
+                <label class="input-label-form" for="">subject</label>
+                <div class="form-details__input-wrap">
+                  <input
+                    type="text"
+                    class="form-details__inputs"
+                    placeholder="your website url"
+                  />
+                </div>
+              </div>
+              <div class="form-details__alpha-button-wrap">
+                <button type="submit" class="form-details__btn">submit</button>
+              </div>
+              <div class="post-as-options-wrapper flex">
+                <div class="post-as-options">
+                  <a href="" class="post-option">Post as a member</a>
+                </div>
+                <span class="post-text">or</span>
+                <div class="post-as-options">
+                  <a href="" class="post-option">Post as a guest</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="post-it-beta-wrapper">
+            <div class="post-it-beta-child-wrap">
+              <p class="poet-it-child-item">this</p>
+              <div class="post-it-parent-text-wrap flex">
+              <span class="post-it-bold-item">By</span>
+              <a href="/" target="_blank" class="post-it-anchor">test</a>
+              <p class="poet-it-child-item">on</p>
+              <span class="post-it-bold-item">08-23-2021
+              </div>
+              </span>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+              <p class="poet-it-child-item">Placente Gold Wrinkle Cream</p>
+              <div class="post-it-parent-text-wrap flex">
+              <span class="post-it-bold-item">By</span>
+              <a href="./NewArrivalsofWorldMarketplace.html" target="_blank"  class="post-it-anchor">New Arrivals of World Marketplace</a>
+              <p class="poet-it-child-item">on</p>
+              <span class="post-it-bold-item">07-27-2021
+              </div>
+              </span>
+            </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+              <p class="poet-it-child-item">Visit our site to see more cataloq and discount price: https://fastracycles.com</p>
+              <div class="post-it-parent-text-wrap flex">
+              <span class="post-it-bold-item">By</span>
+              <a href="./Fastracycles Store.html" target="_blank"  class="post-it-anchor">Fastracycles Store</a>
+              <p class="poet-it-child-item">on</p>
+              <span class="post-it-bold-item">09-28-2020
+              </div>
+              </span>
+            </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+              <p class="poet-it-child-item">printhead</p>
+              <div class="post-it-parent-text-wrap flex">
+              <span class="post-it-bold-item">By</span>
+              <a href="./Genuineprinthead.html" target="_blank"  class="post-it-anchor">Genuineprinthead</a>
+              <p class="poet-it-child-item">on</p>
+              <span class="post-it-bold-item">08-28-2020
+              </div>
+              </span>
+            </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">SEO Company in Ahmedabad,SEO,Expert,Frelancer, India,Gujarat NO. 1 SEO Expert in Gujarat – is one of the Best SEO Company Located in Ahmedabad, Gujarat, India. Provide 100% Organic SEO Result, SEO, Freelance, Company in Ahmedabad seo company in ahmedabad, seo company in gujarat, seo expert in ahmedabad, seo freelancer in gujarat, seo expert in gujarat, seo freelancer in ahmedabad, seo service provider in gujarat, seo service provider in ahmedabad.</p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="https://www.seowebsolution.in/" target="_blank"  class="post-it-anchor">seowebsolution</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item"> 07-07-2020
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+               <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">ChinaTrailers, a MANUFACTURER of special vehicle. Hot sellers like Semi-Trailer, Lowbed Trailer, and Multi-Axle Modular Vehicle. Our modular trailer can be perfectly coupled with Germany Goldhofer THP/SL. Email: grey@chinatrailers.com</p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./ChinaTrailers.html" target="_blank"  class="post-it-anchor">ChinaTrailers</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item"> 06-05-2020
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+               <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">China Printing Masters is a professional China Printing Company of various types of packaging and printing products,including books printing,hardcover book printing, children book printing,cooking book printing,catalogue printing,magazine printing,booklet printing,brochure printing,notebook,paper boxes,paper bags,calendar,sticker,label,flyer,cards,folder etc. Have many years working experiences,Due to competitive prices and high quality eco-friendly material,our products gain very good reputation among the customers at home and board. We wish to build good and long term cooperation relationships with every client. For more informations please find: https://www.chinaprintingmasters.com/index.aspx
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./ChinaPrintingMasters.html" target="_blank"  class="post-it-anchor">ChinaPrintingMasters</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">03-04-2020
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+               <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">Here is test</p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="http://abc.com/" target="_blank"  class="post-it-anchor">EAA</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">10-23-2019
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  We have direct mandate with a financial provider who can help you finance/loan (project funding) your business dreams through Commercial Lending for Asset-based lending, Commercial Real Estate, Merchant Cash Advance, Working Capital, Expansion Commercial Bridge Loans, Debt Restructure. Our goal is be able to assist with your immediate financial needs, as well as develop a long-term partnership that will grow with your company as your needs change. For more info, visit us and see how we can help you. Please, email: federigo@trecsrlservizifinanziari.com
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="/" target="_blank"  class="post-it-anchor">ludger emmerich</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">10-05-2019
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  NMN CAS 1094-61-7 Nicotinamide Mononucleotide Rosmarinic acid CAS 20283-92-5 Carnosic Acid CAS 3650-09-7 Carnosol CAS 5957-80-2 Oil Soluble Rosemary Extract Ursolic acid CAS 77-52-1 Rosemary Extract MAP CAS 113170-55-1 / Magnesium L-Ascorbic acid-2-phosphate Specs : food/cosmetic grade Packing szie :5kgs or 20 kgs/AL Tin with inner ice bag Delivery time : within 5 to 7 days Payment terms: by TT/ LC sight Validity of offer: within 10 days Capability : total of 500kgs/year Hangzhou Onicon Chemical Co Ltd Tel:+86-571-86307507 Fax:+86-571-86307582 Sales Dep. :Ms. Eileen Ying websit:www.oniconchem.cn Email: oniconchem@vip.126.com ,sales@oniconchem.cn
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./hangzhouoniconchemicalcol.html" target="_blank"  class="post-it-anchor">hangzhou  onicon chemical co ltd</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">09-17-2019
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  NMN CAS 1094-61-7 Nicotinamide Mononucleotide Rosmarinic acid CAS 20283-92-5 Carnosic Acid CAS 3650-09-7 Carnosol CAS 5957-80-2 Oil Soluble Rosemary Extract Ursolic acid CAS 77-52-1 Rosemary Extract MAP CAS 113170-55-1 / Magnesium L-Ascorbic acid-2-phosphate Specs : food/cosmetic grade Packing szie :5kgs or 20 kgs/AL Tin with inner ice bag Delivery time : within 5 to 7 days Payment terms: by TT/ LC sight Validity of offer: within 10 days Capability : total of 500kgs/year Hangzhou Onicon Chemical Co Ltd Tel:+86-571-86307507 Fax:+86-571-86307582 Sales Dep. :Ms. Eileen Ying websit:www.oniconchem.cn Email: oniconchem@vip.126.com ,sales@oniconchem.cn
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./hangzhouoniconchemicalcol.html" target="_blank"  class="post-it-anchor">hangzhou  onicon chemical co ltd</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">09-17-2019
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  NMN CAS 1094-61-7 Nicotinamide Mononucleotide Rosmarinic acid CAS 20283-92-5 Carnosic Acid CAS 3650-09-7 Carnosol CAS 5957-80-2 Oil Soluble Rosemary Extract Ursolic acid CAS 77-52-1 Rosemary Extract MAP CAS 113170-55-1 / Magnesium L-Ascorbic acid-2-phosphate Specs : food/cosmetic grade Packing szie :5kgs or 20 kgs/AL Tin with inner ice bag Delivery time : within 5 to 7 days Payment terms: by TT/ LC sight Validity of offer: within 10 days Capability : total of 500kgs/year
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./hangzhouoniconchemicalcol.html" target="_blank"  class="post-it-anchor">hangzhou  onicon chemical co ltd</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item"> 09-17-2019
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  3T Luteus II LTD Carbon Disc Gravel Fork - 700c Luteus II is an carbon fibre fork for gravel, cross and adventure bikes and supports 700c or 27.5? wheels. This second-generation Luteus builds on its forerunner that’s been extensively proven in top-level cyclocross racing, and is now fitted with 15mm thru-axle fork ends. The left fork blade is reinforced around the brake mount posts to counteract torsional braking forces even from 180mm diameter disc-brake calipers The tapered steerer provides ultimate strength and stable, accurate steering in even the most challenging terrain. Luteus II has clearance for 700c gravel/cross tyres up to 44mm width, or 27.5\" mountain bike tyres up to 2.1\" width. Specification Wheel Size: 700c or 27.5\" Steerer: Tapered (1 1/8 - 1 1/2) Axle: 15mm Thru-Axle Rake: 50mm Material: Carbon Fibre Axle to Crown: 395mm
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./BicyclePart.html" target="_blank"  class="post-it-anchor">Bicycle Part</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">07-31-2019
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+                <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Do you have projects that require funding? Kindly contact Mr. Idris Abbas for immediate financing for your projects, contact him immediately through email aseelfinance@outlook.com
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./"  target="_blank" class="post-it-anchor">Aseel Finance</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">07-06-2019
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+                <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Good Day, We offer all kinds of loan Do you or your company need any kind of business loan, investment loan,house loan, project loan, company loan, if yes send us the amount you need and the year you will pay back the loan.For more details contact us at eliasmdavid@yahoo.com Regards Richy
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./" target="_blank"  class="post-it-anchor">Richy</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">06-21-2019
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+                <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  COA OF DESICCATED COCONUT POWDER (HIGH FAT-FINE GRADE) 1. DESCRIPTION - 100% natural coconut, collected from coconut meat grinding, then dried, filled into multiply paper bag with PE liner and PP bag outside. - Apply for toppings, in the baking of biscuits, snacks bars, cakes, cookies and other food products. 2. INGREDIENTS: Mature coconut 3. APPEARANCE - Color: The color shall be natural white to light cream white. - Taste and odour: Mild, fresh and slightly sweet characteristic of coconut with no off-flavour and odour. - Tolerable defects:Paring, coconut skin,coconut sprouts and fibres may be present in desiccated coconut max 10/100g. - Impurity not from coconut: Not detected /100g 4. PHYSICAL & CHEMICAL -Fat: ?62% -Moisture :?3.0% -FFA(as lauric acid):?0.3% - Ash: :?2.5% -SO2 content: Max 100ppm 5. MICROBIOLOGICAL -Total aerobic plate count : Max 104 (cfu/g) -Coliforms: Max 50(cfu/g) -E.Coli: Not detected (cfu/g) -Salmonella: Not detected (cfu/25g) -Yeasts & moulds :Max 100 (cfu/g) -B.cereus: Max 100(cfu/g) -Cl.perfringens: Max 100(cfu/g) -Staphylococus aureus: Max 100(cfu/g) 6. HEAVY METAL -Arsenic(As) : Max 1.0 (mg/kg) -Lead (Pb) : Max 2.0 (mg/kg) 7. TOXIC AND UNWANTED CHEMICALS -Aflatoxin B1 : max 2 (ppb) -Aflatoxin B1, B2, G1, G2 : max 4 (ppb) 8. PACKING -25kgs (net weight) :PE bag+kraft paper bag + PP bag outside . 9. SHELF LIFE :01 year 10 .STORAGE CONDITION -Store in dry and cool place with temp 250C. Close packaging, away from high humidity, strong odours, and direct sunlight. Contact us: laura@vdelta.ocm.vn
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./VietDeltaCorporatiom.html" target="_blank"  class="post-it-anchor">Viet Delta Corporatiom</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">03-11-2019
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+                <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  We - Viet Delta Corp. - take this opportunity to introduce you ourselves as a leading reliable exporter of craft products with the good quality and competitive price. With over 10 years experience, we always use the best quality materials to produce the beautiful and durable products which meet the customers’ requirements in the market. We are exporting our craft products to many countries such as: USA, Canada, Europe, Mexico, Australia, Russia,… We also export all natural raw materials such as: bamboo, coconut fiber, rattan, palm leaf, sea grass, water hyacinth,… To see our complete ranges, please visit our website: www.vdeltacraft.com We hope to co-operate with reliable partners to promote our business in production and export them abroad. With the competitive price, good quality and good service, our products would be suitable for your need and it is very honor to serve you anytime
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./VietDeltaCo.Ltd.html" target="_blank"  class="post-it-anchor">Viet Delta Co.,Ltd</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">12-26-2018
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+                <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Supermarket Supplies ????Website: SieuThiDoGiaDung.Net Fanpage: http://facebook.com/SieuThiDoGiaDung.Net ????Offer wholesale and retail of household appliances. Winter is coming ... Clothes drying long, moldy, easy to cause skin disease. ????????????Fabric shoes that have no place to avoid dirt or mold odor cause odor. ???????? Trendy clothes, good material. ???? Even the dust scarf ???? Super Market is committed to providing customers with good quality products and warranty up to 6 years (Immediate innovation). ????Contact us. ??0382.666.455 or 0987.051.339 ????Learn to find CTVs, distributors, affiliates, and high discount rates. ????Delivery process. 1. Customers order online 2. ????The CCC staff will call for confirmation 3. The technician will check the product quality before packing 4. ???? Delivery by COD (Receiving Payment) 5. Customers receive the goods, carefully check the product and quality 6.????Pay for postal workers when checking the quality of products.
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./GiaDng.html" target="_blank"  class="post-it-anchor">?? Gia D?ng</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">10-15-2018
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+                <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Siêu Th? ?? Gia D?ng ????Website: SieuThiDoGiaDung.Net Fanpage: http://facebook.com/SieuThiDoGiaDung.Net ????Chuyên cung c?p s?/l? các ?? gia d?ng gia ?ình. ??Mùa ?ông ??n r?i...Qu?n áo ph?i lâu khô, ?m m?c d? gây b?nh cho da. ????????????Giày dép nhi?u mà không có ch? ?? tránh b?i b?n hay ?m m?c gây mùi khó ch?u. ????????Nh?ng b? qu?n áo h?p th?i trang, ch?t li?u t?t. ????Hay c? nh?ng chi?c kh?n ch?ng b?i ???? Siêu Th? ?? Gia D?ng cam k?t mang ??n cho khách hàng nh?ng s?n ph?m t?t, ch?t l??ng và b?o hành lên ??n 6 n?m (L?i l?p t?c ??i m?i). ????Liên h? v?i chúng tôi. ??0382.666.455 ho?c 0987.051.339 ????Luôn tìm CTV, nhà phân ph?i, chi nhánh s? giá t?t nh?t và ?u ?ãi chi?t kh?u cao. ????Quy trình giao nh?n hàng. 1. ????Khách hàng ??t hàng tr?c tuy?n 2. ????Nhân viên CSKH s? g?i ?i?n xác nh?n 3. ????Nhân viên k? thu?t s? ki?m tra ch?t l??ng s?n ph?m tr??c khi ?óng gói 4. ????Giao hàng theo ph??ng th?c COD (Nh?n hàng thanh toán sau) 5.????Khách hàng nh?n ???c hàng, ki?m tra k? s?n ph?m và ch?t l??ng 6.????Thanh toán cho nhân viên b?u ?i?n khi ki?m tra ch?t l??ng s?n ph?m t?t.
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./GiaDng.html" target="_blank"  class="post-it-anchor">?? Gia D?ng</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">10-15-2018
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+                <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Highest Grade A Super White 70 80 GSM Double A A4 Paper Copy Paper email: thai.tradlink@gmail.com whatsapp +1 404-913-6190 We sale best quality Double A4 paper like 80g,75g and 70g and also A3 papers and Cash Register papers and we are looking for serious buyers globally who are interested in buying of our goods contact with us for more details as regards to our goods
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./" target="_blank"  class="post-it-anchor">thai.trade</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">09-12-2018
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+                <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                 Affordable Double A Copy Paper A4 80GSM email thai.tradlink@gmail.com We are the largest and most efficient Manufacturers of A4 Copy Papers in Thailand, Copy Paper, A4 Print Paper, Double A4 Paper, A4 Copy Paper, A4 Papers, A4 Paper Wrapping Machine, Paper A4, A4 Paper Sheeter, Started as a small paper mill, now we run operations across Thailand right across the world with an annual combined pulp, paper, packaging product and converting capacity of over 19 million tons per annum. Today, We are suppliers of copier paper in world markets, our products are found in more than 120 countries across six continents Europe, North America, South America, Asia, Africa, Australia. We Manufacture Multipurpose Paper of the following specification. Sheet Size:210mm x 297mm, International Size A4 Quality: Imported 100% Virgin Wood Pulp Whiteness = 102-104%,Natural White Capability: High Speed Copying100ppm, Laser Capable,Inkjet Capable, Fax Capable. Thickness: 103-110 um Surface roughness TS ml/min: 75-175 Surface roughness BS ml/min: 100-200 Bending stiffness MD: >110 Mn Bending stiffness CD: >50 Mn CIE whiteness: 148-152 Cobb Test: 27-33 g/m2 27-33 Size: International standard A4: 210 x 297mm A3: 420x 297mm 8.5 x 11-inch (216 x 279mm) 8.5 x 14-inch (216 x 330mm) Key Performance: No jam in photocopy machine No double feed Stay flat after copying Leave no dust in the copy-machine Nice appearance-white and clean Nice touch-smooth and bulky No see through-print both sides Been developed for : Photocopy Macchines, Laser Printers, Ink-jet Printers, Fax Machines Features and Benefits: Perfect for high-quality printing and copying Super high whiteness produces outstanding clarity and contrast for all graphics and text Precision-cut edges for trouble-free performance User-friendly box design with built-in handle for easy carrying, tear slot perforation for easy access to the reams and label for filing Outstanding Packaging Standout / premium. Special protective / moisture - proof wrapper. Economic box PACKING DETAILS 500 SHEETS PER REAM. 5 REAMS PER BOX. 1560 BOXES PER 20FT CONTAINER (WITH PALLET). 1600 BOXES PER 20FT CONTAINER (WITHOUT PALLET). 7800 REAMS TOTAL IN ONE 20FCL (WITH PALLET). 8000 REAMS TOTAL IN ONE 20FCL (WITHOUT PALLET). FOR MORE INFO ON OUR PRODUCT, CONTACT US WITH YOUR FULL AND COMPLETE CONTACT INFO SO WE CAN SEND YOU ALL DETAILS FOR A BETTER COMMUNICATION AND BUILDING A LONG TERM BUSINESS RELATIONSHIP.
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./" target="_blank"  class="post-it-anchor">thai.trade</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">09-12-2018
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+               <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  we supply on of the best quality of LSD, MDMA, DMT ,Ketamine Crystal meth ,2ci,25i , and many painkiller and sleeping pills good prices contact text or whatsapp + 1 404-913-6190 Cannabis oil We also sell many research chemicals /pills and more 4-mmc, DMT, Crystal Meth Actavis Promethazine Codeine Purple Cough Syrup A-pvp Ketamine LSD, MDMA/ecstasy/molly MDPV U-47700 Crack/uncrack cocaine Methylone adbf Fluorococaine ibogaine Sibutramine Redotex Mazidol Ritalin Xanax Hydromorphone: Mescaline: Valium(Diazepam) GHB Rohypnol Alprozolam Adderall Amphetamine Percocet Oxycodone Dimethocaine 2ci, 2cb , 25i and more Text / Whatsapp +1 404-913-6190 email , chemical.lab.supplier@gmail.com
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./" target="_blank"  class="post-it-anchor">chemshop</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">09-12-2018
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+               <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  We are export company with argricurtural products: fresh, dried, frozen fruits, seeds. Especially all products from COCONUT
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./VietDeltaCo.Ltd.html" target="_blank"  class="post-it-anchor">Viet Delta Industrial Co., Ltd</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">05-08-2018
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+               <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Professional massage chairs in Hanoi most prestigious prestige, genuine parts, repair services massage chairs in Hanoi, repairing quickly, buying old massage chairs, the price of the whole country.
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./Dich vusuaghemassageso1V.html" target="_blank"  class="post-it-anchor">Dich vu sua ghe massage so 1 VietNam</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item"> 04-28-2018
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+               <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Chuyên s?a gh? massage t?i Hà N?i giá r? nh?t uy tín nh?t, linh ki?n chính hãng, d?ch v? s?a gh? massage t?i Hà N?i, s?a ch?a nhanh chóng, mua bán gh? massage c?, bao giá toàn qu?c
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./Dich vusuaghemassageso1V.html" target="_blank"  class="post-it-anchor">Dich vu sua ghe massage so 1 VietNam</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">04-28-2018
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  we supply on of the best quality of LSD, MDMA, DMT ,Ketamine Crystal meth ,2ci,25i , and many painkiller and sleeping pills good prices contact text or whatsapp + 1 404-913-6190 Cannabis oil We also sell many research chemicals /pills and more 4-mmc, DMT, Crystal Meth Actavis Promethazine Codeine Purple Cough Syrup A-pvp Ketamine LSD, MDMA/ecstasy/molly MDPV U-47700 Crack/uncrack cocaine Methylone adbf Fluorococaine ibogaine Sibutramine Redotex Mazidol Ritalin Xanax Hydromorphone: Mescaline: Valium(Diazepam) GHB Rohypnol Alprozolam Adderall Amphetamine Percocet Oxycodone Dimethocaine 2ci, 2cb , 25i and more Text / Whatsapp +1 404-913-6190 email , chemical.lab.supplier@gmail.com
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./Dich vusuaghemassageso1V.html" target="_blank"  class="post-it-anchor">Dich vu sua ghe massage so 1 VietNam</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">02-15-2018
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  high speed door
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./SaiGonNamPhat.html" target="_blank"  class="post-it-anchor">Sai Gon Nam Phat</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">11-08-2017
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Sell SKF 81184,Thrust Roller Bearing,420x500x65,NTN 81184 http://www.wibearing.com evelyn@okbbearing.com skype:okb-bearing +86-15342006557
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./BEARINGPOWERInternationalTr.html" target="_blank"  class="post-it-anchor">BEARING POWER International Trading Co.,Ltd.</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">10-12-2017
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Sell SKF 81184,Thrust Roller Bearing,420x500x65,NTN 81184 http://www.wibearing.com evelyn@okbbearing.com skype:okb-bearing +86-15342006557
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./BEARINGPOWERInternationalTr.html" target="_blank"  class="post-it-anchor">BEARING POWER International Trading Co.,Ltd.</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">10-12-2017
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Sell SKF 81184,Thrust Roller Bearing,420x500x65,NTN 81184 http://www.wibearing.com evelyn@okbbearing.com skype:okb-bearing +86-15342006557
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./BEARINGPOWERInternationalTr.html" target="_blank"  class="post-it-anchor">BEARING POWER International Trading Co.,Ltd.</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">10-12-2017
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Sell SKF 81184,Thrust Roller Bearing,420x500x65,NTN 81184 http://www.wibearing.com evelyn@okbbearing.com skype:okb-bearing +86-15342006557
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./BEARINGPOWERInternationalTr.html" target="_blank"  class="post-it-anchor">BEARING POWER International Trading Co.,Ltd.</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">10-12-2017
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Sell SKF 81184,Thrust Roller Bearing,420x500x65,NTN 81184 http://www.wibearing.com evelyn@okbbearing.com skype:okb-bearing +86-15342006557
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./BEARINGPOWERInternationalTr.html" target="_blank"  class="post-it-anchor">BEARING POWER International Trading Co.,Ltd.</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">10-12-2017
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Sell SKF 81184,Thrust Roller Bearing,420x500x65,NTN 81184 http://www.wibearing.com evelyn@okbbearing.com skype:okb-bearing +86-15342006557
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./BEARINGPOWERInternationalTr.html" target="_blank"  class="post-it-anchor">BEARING POWER International Trading Co.,Ltd.</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">10-12-2017
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Sell SKF 81184,Thrust Roller Bearing,420x500x65,NTN 81184 http://www.wibearing.com evelyn@okbbearing.com skype:okb-bearing +86-15342006557
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./BEARINGPOWERInternationalTr.html" target="_blank"  class="post-it-anchor">BEARING POWER International Trading Co.,Ltd.</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">10-12-2017
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Sell SKF 81184,Thrust Roller Bearing,420x500x65,NTN 81184 http://www.wibearing.com evelyn@okbbearing.com skype:okb-bearing +86-15342006557
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./BEARINGPOWERInternationalTr.html" target="_blank"  class="post-it-anchor">BEARING POWER International Trading Co.,Ltd.</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">10-12-2017
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Sell FYH UKFL209;H2309X,Insert Ball Bearing,40x50x180,ASAHI UKFL209;H2309X http://www.wibearing.com evelyn@okbbearing.com skype:okb-bearing +86-15342006557
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./BEARINGPOWERInternationalTr.html" target="_blank"  class="post-it-anchor">BEARING POWER International Trading Co.,Ltd.</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">10-12-2017
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Sell FYH UKFL209;H2309X,Insert Ball Bearing,40x50x180,ASAHI UKFL209;H2309X http://www.wibearing.com evelyn@okbbearing.com skype:okb-bearing +86-15342006557
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./BEARINGPOWERInternationalTr.html" target="_blank"  class="post-it-anchor">BEARING POWER International Trading Co.,Ltd.</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">10-12-2017
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Sell FYH UKFL209;H2309X,Insert Ball Bearing,40x50x180,ASAHI UKFL209;H2309X http://www.wibearing.com evelyn@okbbearing.com skype:okb-bearing +86-15342006557
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./BEARINGPOWERInternationalTr.html" target="_blank"  class="post-it-anchor">BEARING POWER International Trading Co.,Ltd.</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">10-12-2017
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Sell FYH UKFL209;H2309X,Insert Ball Bearing,40x50x180,ASAHI UKFL209;H2309X http://www.wibearing.com evelyn@okbbearing.com skype:okb-bearing +86-15342006557
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./BEARINGPOWERInternationalTr.html" target="_blank"  class="post-it-anchor">BEARING POWER International Trading Co.,Ltd.</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">10-12-2017
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Sell FYH UKFL209;H2309X,Insert Ball Bearing,40x50x180,ASAHI UKFL209;H2309X http://www.wibearing.com evelyn@okbbearing.com skype:okb-bearing +86-15342006557
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./BEARINGPOWERInternationalTr.html" target="_blank"  class="post-it-anchor">BEARING POWER International Trading Co.,Ltd.</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">10-12-2017
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Sell FYH UKFL209;H2309X,Insert Ball Bearing,40x50x180,ASAHI UKFL209;H2309X http://www.wibearing.com evelyn@okbbearing.com skype:okb-bearing +86-15342006557
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./BEARINGPOWERInternationalTr.html" target="_blank"  class="post-it-anchor">BEARING POWER International Trading Co.,Ltd.</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">10-12-2017
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Sell FYH UKFL209;H2309X,Insert Ball Bearing,40x50x180,ASAHI UKFL209;H2309X http://www.wibearing.com evelyn@okbbearing.com skype:okb-bearing +86-15342006557
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./BEARINGPOWERInternationalTr.html" target="_blank"  class="post-it-anchor">BEARING POWER International Trading Co.,Ltd.</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">10-12-2017
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Sell FYH UKFL209;H2309X,Insert Ball Bearing,40x50x180,ASAHI UKFL209;H2309X http://www.wibearing.com evelyn@okbbearing.com skype:okb-bearing +86-15342006557
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./BEARINGPOWERInternationalTr.html target="_blank"  class="post-it-anchor">BEARING POWER International Trading Co.,Ltd.</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">10-12-2017
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Are You Looking #T-Shirt? You Can Buy The #Best T-Shirt From #Teespring. #Teespring Provides #Custom T-Shirts Worldwide. #Teespring Provides #Men\'s T-Shirts And #Women\'s T-Shirts.You Can Choose This #Shirts It\'s Awesome And Flexible #Custom Shirts. Tees, long-sleeves, or hoodies in the color of your choice at $5 Off retail price (discount is already applied). ** Secure Checkout | Shipped & printed in the U.S.A.- Ship Worldwide ** VERY High Quality Tees Tesspring Is Awesome T-shirt Provider Company Of USA.Tesspring Provides There product worldwide. This T-shirt Is Outstanding T-shirt For Everyone.It\'s Awesome and flexible T-shirt With Different Colors And Different size.This Product Ended After Few Days. When you press the big green button, you will be able to choose your size(s). Check Our Store For More Awesome Shirts: Family T- Shirts: https://teespring.com/stores/family-t-shirts-19 For men\'s: https://teespring.com/stores/t-shirt-for-mens For women\'s: https://teespring.com/stores/womens-t-shirts-7
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./T-shirtsell.html" target="_blank"  class="post-it-anchor">T-shirt sell</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">09-13-2017
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Broken cinnamon - Color : natural, not mouldly, rotten - Length : 4 - 5 cm - Moisture : 14 - 15% max - Packing : 10 kg / carton, 1cont 20 about 7 MT Cinamon powder - Moisture 13.5%max - Admixture 0.5%max - Size: 100% through mesh 60 holes/cm2 - Brown colour. - Packing: 10kg/carton, 1cont20ft:16MT Cinamon split - Color : natural brown - Length : 40 - 45 cm - Thickness : 1 - 1.8 mm - Moisture : 13.5% max - Packing : 10 kg / carton, 1cont 20 about 7 M Please visit our website: www.vdelta.com.vn If you have any inquiries please feel free to contact us at info@vdelta.com.vn or vietdeltaindustrialcompany@gmail.com
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./VietDeltaCorporatiom.html" target="_blank"  class="post-it-anchor">Viet Delta Corporatiom</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">06-05-2017
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Cathodic Arc PVD metalizador para recubrir hoja de afeitar Website: http://www.pvd-metallizer.com Un modelo especialmente diseñado de Cathodic Arc PVD Coater nació en los últimos años con un fin especial de metalización para los sustratos, cuchillas de afeitar de marcas conocidas por las ayudas de las abrazaderas especiales que encajan perfectamente. Equipada con una bomba turbo-molecular de Oerlikon LayBold, junto con varias bombas mecánicas en vacío de evacuación, la máquina recién inventada permite realizar una alta eficiencia y perfecta precisión en el recubrimiento orientado sobre los sustratos, recibió popularidad de los nacionales y extranjeros. Vale la pena promocionar este modelo de máquina al mercado internacional. China Guangdong PVD Metallizer Co. Alex Li Móvil: +86 13929890858 Wechat: metallizer Skype: vacuum-metallizer Correo electrónico: vacuumsale@hotmail.com 598828529@qq.com Sitio web: http://www.pvd-metallizer.com
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./China GuangdongPVDMetallizer.html" target="_blank"  class="post-it-anchor">China Guangdong PVD Metallizer Co.</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">06-03-2017
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Leading Manufacture of Modular Trailers-Semi Trailer in China. Produce special trailers-heavy duty transporter for you! Whenever and whatever you need, we are the best solution for you. What We Manufacture Hydraulic Modular Trailer/Multi Axle Semi-Trailer (Low-bed/Lowboy/Flat bed container/Extendable) Wind blade/nacelle/tower trailer Prime Mover/Tractor CHINA HEAVY TRANSPORT EQUIPMENT-China Specialized Trailers Supplier ontact Us Tel: 0086-021-34780291 Whatsapp:0086 13906107837 Before-sale Email: info@ruiqianhe.com After-sale Email: heavytransportequipment@yahoo.com Address: 421,Building 41,No.1818,Lianghang Road,Minhang, Shanghai, China
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="http://www.heavyhaulagetrailer.com/" target="_blank"  class="post-it-anchor">CHINA HEAVY TRANSPORT EQUIPMENT</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">05-30-2017
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  FRESH YOUNG COCONUT Type:Coconut Style:Fresh Product Type:Tropical
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./DeltaViet.html" target="_blank"  class="post-it-anchor">Delta Viet</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">05-21-2017
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Thai Foods Product International Co., Ltd manufacture and export dietary supplement, beauty and dairy products for more than 11 years. Our products meet with GMP, HACCP and Halal Cert. Here are our product lists: 1. Dairy Products 1.1 Milk Powder for Kids (Brain and Growth Improvement) 1.2 Instant Powder Drinks with sugar free (Cocoa and Malt Flavor) 1.3 Cow Milk Tablet 2. Dietary Supplement Products 2.1 Curcumin Extract for Joint and Bone Pain Relief 2.2 Male Sexual Enhancement Product 2.3 Hair Growth Product 2.4 Natural Vaginal Tightening Product 2.5 Diabetic Control Tea 2.6 Anti-cancer Product 3.Beauty Product 3.1 Acne Clearing and Whitening Gel
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./Thai Foods Product Internation.html" target="_blank"  class="post-it-anchor">Thai Foods Product International Co.,Ltd</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">05-03-2017
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Suizhou Mushroom Farming Co.,ltd is a China family-owned export enterprise helping local farmers distribute their fungus products -Dried Shiitake Mushroom worldwide . Original source at good price . Place of Planting : Yindian Town, 441300 Suizhou,China Website : www.chinashiitakemushroom.com Please contact me via: Phone/whatsapp/viber : (+86)13477047653 Skype: ran06011 Email: evelynran2016@163.com Thanks and best regard!
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./Suizhou Mushroom Farming Co.,l.html" target="_blank"  class="post-it-anchor">Suizhou Mushroom Farming Co.,ltd</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">04-11-2017
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  JAD(www.bucklenew.com) specialize in buckles for over decade with high quality and best service.Our buckles are made of POM and zinc alloy,can pass quality tests,safe for using,ideal for straps,webbings,collars...
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="https://www.bucklenew.com/" target="_blank"  class="post-it-anchor">JAD Plastic&Hardware Accessories Co.,Ltd</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">04-06-2017
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  I\'m Thuy from Hang Xanh International CO.,LTD in VIET NAM. Our company export Vietnamese Agricultural and Seafood products for many years .Today, We provide dried fish such as: dried anchovy, dried yellow stripe fish,… We are looking for importers from all over the world. We are sure that our products are high quality and competitive price. If you have any request, please contact me any time. Ms. Thuy Skype: Tachiana or mail: indus-export@hxcrop.com.vn
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./HANG XANH INTERNATIONAL Co., L.html" target="_blank"  class="post-it-anchor">HANG XANH INTERNATIONAL Co., Ltd.</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">03-17-2017
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Specifications: Material wood Color natural Size many size Origin VietNam Package carton Item Name: Handmade Wooden Jewelry Box - Product Type: Plaque - Material: Natural Wood - Technics: Carved - Feature: Environmental Friendly - Original: Vietnam - Decoration: Home or Office decoration, Business Gift, Souvenir - Dimensions: 16L x 10W x 6H (cm) - MOQ: 100pieces - Delivery time: About 7 days depend on stock available and order\'s quantity - Shipping: By Sea/By Air - Payment term:L/C, T/T
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./VietDeltaCorporatiom.html" target="_blank"  class="post-it-anchor">Viet Delta Corporatiom</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">03-06-2017
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  We are 13 year\'s manufacturer of gas spring, gas lift, gas struts, passed TS 16949, ISO9001, ROHS, SGS, 150,000 times\' TVU test. We are looking for importers from all over the world. Please contact Ms.Agatha ( Whatsapp/ Wechat/Mob: 0086 17876484908 /E-mail: tyg@gasspring.com) for more details.
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./Guangzhou Tieying Spring Co.,l.html" target="_blank"  class="post-it-anchor">Guangzhou Tieying Spring Co.,ltd</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">02-20-2017
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Benzocaine CAS No: 94-09-7 Purity: 99.9% Appearance:White Fine Powder Quality Standard: USP36 Package:on request Novacaine CAS No.: 59-46-1 Purity:99.9% Appearance:White Crystalline powder Quality Standard: USP36 Package:on request Lidocaine HCl CAS No.:73-78-9 Purity:99.9% Appearance:White Fine Powder Quality Standard: USP36 Package:on request 6-Bromoisoquinoline Cas No:34784-05-9 Appearance:white powder Purity:99.5% above PackAge:on request 1-Benzyl-4-methylpiperazine hydrochloride,mbzp CAS number: 374898-00-7 purity:99.9% Appearance:White powder packing:on request 1-(4-fluorophenyl)piperazine dihydrochloride,pfpp CAS No.64090-19-3 Purity:99%min Appearance:Off white Powder Package:on request 1-(4-methoxylphenyl)-piperazine dihydrocholoride,MeOPP CAS No.38869-47-5 Purity:99.9% Appearance:white Powder Package:on request Jinyangjian Tadanafil/Tadalafil/Cialis Vardenafil/Levitra Purity:99.9% Appearance:white Powder Package: on request Sex Enhancement Powder Phenacetin CasNo: 62-44-2 Purity: 99.5% Appearance: Off white Powder Package: on request Shanghai EverChem is ready to be of your service,we can assure you of very competitive prices and high quality products. Your kind inquires will be highly appreciated!Thanks! everchem@hotmail.com
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="/" target="_blank"  class="post-it-anchor">admin</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">02-15-2017
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  I\'m Julie from VIET DELTA INDUSTRIAL CO.,LTD in VIET NAM. Our company provide Young Coconut Water Concentrate. It is 100% natural or chemical free! We are sure that our products are high quality and competitive price. If you have any request, please contact me any time. Ms. Angelina Phone/ Skype/ Whatsapp: 84 1648377396 Email: angelina@vdeltagoods.com
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./VietDeltaCo.Ltd.html" target="_blank"  class="post-it-anchor">VIET DELTA INDUSTRIAL CO.,LTD</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">01-04-2017
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+             <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  DRIED PINEAPPLE PEEL PULP Style: dried pulp Specification Moisture: 10 – 11% Admixture: 3% max Protein: 5% min Fat: 0.9% min Packing: in 20 – 50 kg/bag or as buyer’s requests.
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./Vietdelta.html" target="_blank"  class="post-it-anchor">Vietdelta</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">12-22-2016
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  We are looking for importer our product in beverage. Our product at: http://jojonavi.com email at: sophie@jojonavi.com Tel: 0084-1267647127
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./Sophie.html" target="_blank"  class="post-it-anchor">Sophie</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">12-22-2016
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+               <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  h?n khi s? d?ng và d? dàng h?n khi s? d?ng t? gi?y Ngoài ra nguyên li?u s?n xu?t t? gi?y ???c làm b?ng g? công nghi?p HC Vi?t Nam s?n xu?t ??t tiêu chu?n E1 v?i l??ng Formaldehyde ch? 0,005%, th?p h?n 6-12 l?n so v?i tiêu chu?n E2,E3 mà các ??n v? khác ?ang dùng nên t? gi?y g? công nghi?p HC luôn ???c ng??i dùng tin t??ng và tiêu dùng. T? gi?y do HC s?n xu?t luôn bi?t l?a ch?n ph? ki?n chính hãng cao c?p và uy tín khi?n cho ng??i dùng không ph?i b?n khoan khi l?a ch?n chi?c t? gi?y v?a b?n+ ??p+hi?n ??i+sang tr?ng. Công ty TNHH SX & TM HC Vi?t Nam V?n phòng thi?t k?: P406 Tòa nhà A6C Nam Trung Yên - C?u Gi?y - Hà N?i ?T: 0466 833 999 Showroom 1 : S? 26/165 Xuân Th?y - D?ch V?ng H?u - C?u Gi?y - Hà N?i ?T: 0989 304 666 Showroom 2: S? 20, LK 11B, K?T M? Lao, P. M? Lao, Q. Hà ?ông, Hà N?i ?T: 0962 45 89 89 Website: Noithatnhaviet.com.vn Email: Hcvietnam666@gmail.com
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./Công ty TNHH SX & TM HC Vi.html" target="_blank"  class="post-it-anchor">Công ty TNHH SX & TM HC Vi?t Nam</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">12-21-2016
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+               <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  our company\'s latest products X5 was published.
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./Foshan Cingol Medical Instrume.html" target="_blank"  class="post-it-anchor">Foshan Cingol Medical Instrument Co.,Ltd</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">11-06-2016
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+               <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  cosmetic products please?
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./placentia tech.html" target="_blank"  class="post-it-anchor">placentia tech</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">09-28-2016
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  we are an company exporter seaweeds Dried different varietes,species:moss irleand.suginori,beni,midori.shiro,chondracanthus chamisoi,lessonia trabeculata .moss marine.,macrocystis integrifolia,Gigartina chamissoi,chondrus crispus,gracilaria,musgo irlanda,sea lettuce,macrocystis pyrifera,irish moss,ulva lactuca,gigartina tenella,chondrus canaliculatus,chicorea de mar, musgo mar.seamoss,yuyo,mococho,codium,sargassum,chondracanthus tenellus,chicoria de mar Ascophillum nodosum,Alginate sodium,brown,kelp,sea cucumbers,patallus mollis, we have two presentations available for human consumption for industry.Agar.comestic.carrageen.carragenan. come in contact E-mail: producto_peruvian@hotmail.com come in contact
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./" target="_blank"  class="post-it-anchor">jesus de nazareth peruvian</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item"> 09-13-2016
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+               <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  we are an company exporter seaweeds Dried different varietes,species:moss irleand.suginori,beni,midori.shiro,chondracanthus chamisoi,lessonia trabeculata .moss marine.,macrocystis integrifolia,Gigartina chamissoi,chondrus crispus,gracilaria,musgo irlanda,sea lettuce,macrocystis pyrifera,irish moss,ulva lactuca,gigartina tenella,chondrus canaliculatus,chicorea de mar, musgo mar.seamoss,yuyo,mococho,codium,sargassum,chondracanthus tenellus,chicoria de mar Ascophillum nodosum,Alginate sodium,brown,kelp,sea cucumbers,patallus mollis, we have two presentations available for human consumption for industry.Agar.comestic.carrageen.carragenan. come in contact E-mail: producto_peruvian@hotmail.com come in contact
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./" target="_blank"  class="post-it-anchor">jesus de nazareth peruvian</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">09-13-2016
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+               <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Looking for Distributors.
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./Beauty & Health international.html" target="_blank"  class="post-it-anchor">Beauty & Health international Inc.</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item"> 07-25-2016
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+               <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Ok grate
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="http://www.google.com" target="_blank"  class="post-it-anchor">EVS</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">05-30-2016
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Looking for agent or distributor for Anti aging Skin care product made in USA
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./Beauty & Health international.html" target="_blank"  class="post-it-anchor">Beauty & Health international Inc.</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">04-12-2016
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+               <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Honfe Supplier Co., Ltd specialize in supplying weaving spare parts with high rank quality. For example, Guide tooth blocks, guide teeth, Cam plates, picking shoes, picking links, projectile feeders, Projectile selectors, projectile lifters. projectile openers, sales6(at)honfe(dot)com guide rails, projectile grippers, projectile feeders, RH levers, Weft end grippers, Tucking needles, Projectile returners, brake band, scissors, centering blades, picking blocks, sales6(at)honfe(dot)com picking levers for Sulzer PUD1, PUD2, TW11, P7100, P7150, P7200 PS looms. Our products including: 1. Projectile loom parts fit for Sulzer TW11, PUD1, PUD2, P7100 looms, etc. 2. Rapier loom parts fit for Somet 92, Somet 93, Thema11, Thema 11E, C401, P401, P1001, TP500, TP600, Picnaol GTM, GTM-AS, GAMMA,etc. 3. Air-jet loom parts fit for Picanol PAT, Picanol Omni/Delta, Picanol Omni-plus , Tsudakoma ZA200, ZA203, ZA205, ZA209, ZAX, Toyota 500 / Toyota 600 looms,etc. 4. Jacquards loom parts fit for JPHF-0001, 0003, etc. Honfe Supplier Co., Ltd specialize in supplying weaving spare parts with high rank quality. For example, Guide tooth blocks, guide teeth, Cam plates, picking shoes, picking links, projectile feeders, Projectile selectors, projectile lifters. projectile openers, sales6(at)honfe(dot)com guide rails, projectile grippers, projectile feeders, RH levers, Weft end grippers, Tucking needles, Projectile returners, brake band, scissors, centering blades, picking blocks, sales6(at)honfe(dot)com picking levers for Sulzer PUD1, PUD2, TW11, P7100, P7150, P7200 PS looms. Our products including: 1. Projectile loom parts fit for Sulzer TW11, PUD1, PUD2, P7100 looms, etc. 2. Rapier loom parts fit for Somet 92, Somet 93, Thema11, Thema 11E, C401, P401, P1001, TP500, TP600, Picnaol GTM, GTM-AS, GAMMA,etc. 3. Air-jet loom parts fit for Picanol PAT, Picanol Omni/Delta, Picanol Omni-plus , Tsudakoma ZA200, ZA203, ZA205, ZA209, ZAX, Toyota 500 / Toyota 600 looms,etc. 4. Jacquards loom parts fit for JPHF-0001, 0003, etc.Honfe Supplier Co., Ltd specialize in supplying weaving spare parts with high rank quality. For example, Guide tooth blocks, guide teeth, Cam plates, picking shoes, picking links, projectile feeders, Projectile selectors, projectile lifters. projectile openers, sales6(at)honfe(dot)com guide rails, projectile grippers, projectile feeders, RH levers, Weft end grippers, Tucking needles, Projectile returners, brake band, scissors, centering blades, picking blocks, sales6(at)honfe(dot)com picking levers for Sulzer PUD1, PUD2, TW11, P7100, P7150, P7200 PS looms. Our products including: 1. Projectile loom parts fit for Sulzer TW11, PUD1, PUD2, P7100 looms, etc. 2. Rapier loom parts fit for Somet 92, Somet 93, Thema11, Thema 11E, C401, P401, P1001, TP500, TP600, Picnaol GTM, GTM-AS, GAMMA,etc. 3. Air-jet loom parts fit for Picanol PAT, Picanol Omni/Delta, Picanol Omni-plus , Tsudakoma ZA200, ZA203, ZA205, ZA209, ZAX, Toyota 500 / Toyota 600 looms,etc. 4. Jacquards loom parts fit for JPHF-0001, 0003, etc.
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./HonfeSupplierCoLtd.html" target="_blank"  class="post-it-anchor">HonfeSupplierCoLtd</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">02-23-2016
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+             <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  COMPETITIVE PRICE ON TIME DELIVERY Dear Sirs/Madams, THINH PHAT COMPANY LIMITED is one of the leading manufacturers specializing in producing POLYPROPYLENE WOVEN BAGS in the North of Vietnam. http://www.thinhphatplastic.com If you have any inquiries, feel free to contact us. Thank you and best regards Jason Evens Sales Executive Email: ppwovenbag@thinhphatplastic.com Skype: duc-nguyen0212
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./Thinh Phat Company Limited.html" target="_blank"  class="post-it-anchor">Thinh Phat Company Limited</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">01-21-2016
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Looking for agency ouside USA for our products.. Nutritionsl supplement and natural skin care.
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./Beauty & Health international.html" target="_blank"  class="post-it-anchor">Beauty & Health international Inc.</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">12-24-2015
+                </div>
+                </span>
+              </div>
+            </div>
+            <div class="post-it-beta-child-wrap">
+              <div class="post-it-beta-child-wrap">
+                <p class="poet-it-child-item">
+                  Looking for botanical extracts suppliers. Please contact ud.
+                </p>
+                <div class="post-it-parent-text-wrap flex">
+                <span class="post-it-bold-item">By</span>
+                <a href="./Beauty & Health international.html" target="_blank"  class="post-it-anchor">Beauty & Health international Inc.</a>
+                <p class="poet-it-child-item">on</p>
+                <span class="post-it-bold-item">12-24-2015
+                </div>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="wrapper">
+        <div class="container">
+          <div class="footer-main-wrapper flex">
+            <div class="footer-alpha-wrapper">
+              <div href="" class="footer-alpha-logo-image">
+                <img src="./assets/images/home/logo.png" class="header-image" />
+              </div>
+              <div class="footer-alpha-contacts-wrap">
+                <h3 class="footer-title">contacts</h3>
+                <div class="footer-alpha-contacts-description-wrap">
+                  <div class="footer-alpha-contacts-description-parent flex">
+                    <span class="footer-alpha-contacts-description-title"
+                      >address</span
+                    >
+                    <p class="footer-alpha-contacts-description-detail">
+                      GT road-street-2-jutial
+                    </p>
+                  </div>
+                  <div class="footer-alpha-contacts-description-parent flex">
+                    <span class="footer-alpha-contacts-description-title"
+                      >phone</span
+                    >
+                    <p class="footer-alpha-contacts-description-detail">
+                      +92 345678987654
+                    </p>
+                  </div>
+                  <div class="footer-alpha-contacts-description-parent flex">
+                    <span class="footer-alpha-contacts-description-title"
+                      >hours</span
+                    >
+                    <p class="footer-alpha-contacts-description-detail">
+                      10:00-18:00, mon-sat
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-alpha-social-icons-wrap">
+                <h3 class="footer-title">follow us</h3>
+                <div class="footer-alpha-social-icons flex">
+                  <div class="footer-alpha-social-icon">
+                    <i class="fab fa-facebook-f"></i>
+                  </div>
+                  <div class="footer-alpha-social-icon">
+                    <i class="fab fa-instagram"></i>
+                  </div>
+                  <div class="footer-alpha-social-icon">
+                    <i class="fab fa-youtube"></i>
+                  </div>
+                  <div class="footer-alpha-social-icon">
+                    <i class="fab fa-pinterest-p"></i>
+                  </div>
+                  <div class="footer-alpha-social-icon">
+                    <i class="fab fa-twitter"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-beta-wrapper flex">
+              <div class="footer-beta-child">
+                <ul class="footer-beta-links">
+                  <h3 class="footer-title center-title">about</h3>
+                  <li class="footer-beta-link-item">
+                    <a href="./product.html" class="footer-beta-items">products</a>
+                  </li>
+                  <li class="footer-beta-link-item">
+                    <a href="./companies.html" class="footer-beta-items"
+                      >companies</a
+                    >
+                  </li>
+                  <li class="footer-beta-link-item">
+                    <a href="./services.html" class="footer-beta-items">services</a>
+                  </li>
+                  <li class="footer-beta-link-item">
+                    <a href="./events.html" class="footer-beta-items"
+                      >events</a
+                    >
+                  </li>
+                  <li class="footer-beta-link-item">
+                    <a href="./newArrival.html" class="footer-beta-items">new arrival</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer-beta-child">
+                <ul class="footer-beta-links">
+                  <h3 class="footer-title center-title">my account</h3>
+                  <li class="footer-beta-link-item">
+                    <a href="./" class="footer-beta-items">sign in</a>
+                  </li>
+                  <li class="footer-beta-link-item">
+                    <a href="./productDeals.html" class="footer-beta-items">product deals</a>
+                  </li>
+                  <li class="footer-beta-link-item">
+                    <a href="./servicesDeal.html" class="footer-beta-items">service deals</a>
+                  </li>
+                  <li class="footer-beta-link-item">
+                    <a href="./productVideos.html" class="footer-beta-items">product videos</a>
+                  </li>
+                  <li class="footer-beta-link-item">
+                    <a href="./" class="footer-beta-items">help</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-gamma-wrapper">
+              <h3 class="footer-title center-title">install app</h3>
+              <span class="footer-gamma-text"
+                >from app store or google play</span
+              >
+              <div class="footer-gamma-images-wrap flex">
+                <div class="footer-gamma-images">
+                  <img
+                    src="./assets/images/pay/app.jpg"
+                    class="footer-gamma-image"
+                  />
+                </div>
+                <div class="footer-gamma-images">
+                  <img
+                    src="./assets/images/pay/play.jpg"
+                    class="footer-gamma-image"
+                  />
+                </div>
+              </div>
+              <span class="footer-gamma-text">secured payment gateways</span>
+              <div class="footer-gamma-last-image">
+                <img
+                  src="./assets/images/pay/pay.png"
+                  class="footer-gamma-last-img"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="footer-tera-child">
+            <ul class="footer-beta-links last-sec-footer-prnt flex">
+              <li class="footer-beta-link-item last-sec-footer">
+                <a href="./privacyStatement.html" class="footer-beta-items">privacy statement</a>
+              </li>
+              <li class="footer-beta-link-item last-sec-footer">
+                <a href="./Terms.html" class="footer-beta-items"
+                  >terms of use</a
+                >
+              </li>
+              <li class="footer-beta-link-item last-sec-footer">
+                <a href="./Contact.html" class="footer-beta-items">contact us</a>
+              </li>
+              <li class="footer-beta-link-item last-sec-footer">
+                <a href="./BusinessNews.html" class="footer-beta-items"
+                  >business news</a
+                >
+              </li>
+              <li class="footer-beta-link-item last-sec-footer">
+                <a href="./BusinessLink.html" class="footer-beta-items">business link</a>
+              </li>
+              <li class="footer-beta-link-item last-sec-footer">
+                <a href="./Bee2buyFAQs.html" class="footer-beta-items">Bee2buy FAQs</a>
+              </li>
+              <li class="footer-beta-link-item last-sec-footer">
+                <a href="./PostIt.html" class="footer-beta-items">post it</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

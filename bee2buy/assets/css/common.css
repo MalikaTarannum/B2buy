@@ -1,0 +1,391 @@
+@font-face {
+  font-family: "Overpass";
+  src: url("../fonts/Overpass-Black.woff2") format("woff2"),
+    url("../fonts/Overpass-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Overpass";
+  src: url("../fonts/Overpass-BlackItalic.woff2") format("woff2"),
+    url("../fonts/Overpass-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Overpass";
+  src: url("Overpass-Bold.woff2") format("woff2"),
+    url("Overpass-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Overpass";
+  src: url("../fonts/Overpass-BoldItalic.woff2") format("woff2"),
+    url("../fonts/Overpass-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Overpass";
+  src: url("../fonts/Overpass-ExtraBold.woff2") format("woff2"),
+    url("../fonts/Overpass-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Overpass";
+  src: url("../fonts/Overpass-ExtraLight.woff2") format("woff2"),
+    url("../fonts/Overpass-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Overpass";
+  src: url("../fonts/Overpass-ExtraBoldItalic.woff2") format("woff2"),
+    url("../fonts/Overpass-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Overpass";
+  src: url("../fonts/Overpass-Light.woff2") format("woff2"),
+    url("../fonts/Overpass-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Overpass";
+  src: url("../fonts/Overpass-ExtraLightItalic.woff2") format("woff2"),
+    url("../fonts/Overpass-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Overpass";
+  src: url("../fonts/Overpass-Italic.woff2") format("woff2"),
+    url("../fonts/Overpass-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Overpass";
+  src: url("../fonts/Overpass-LightItalic.woff2") format("woff2"),
+    url("../fonts/Overpass-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Overpass";
+  src: url("../fonts/Overpass-Medium.woff2") format("woff2"),
+    url("../fonts/Overpass-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Overpass";
+  src: url("../fonts/Overpass-MediumItalic.woff2") format("woff2"),
+    url("../fonts/Overpass-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Overpass";
+  src: url("../fonts/Overpass-SemiBold.woff2") format("woff2"),
+    url("../fonts/Overpass-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Overpass";
+  src: url("../fonts/Overpass-Regular.woff2") format("woff2"),
+    url("../fonts/Overpass-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Overpass";
+  src: url("../fonts/Overpass-SemiBoldItalic.woff2") format("woff2"),
+    url("../fonts/Overpass-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Overpass";
+  src: url("../fonts/Overpass-ThinItalic.woff2") format("woff2"),
+    url("../fonts/Overpass-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Overpass";
+  src: url("../fonts/Overpass-Thin.woff2") format("woff2"),
+    url("../fonts/Overpass-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-Bold.woff2") format("woff2"),
+    url("../fonts/Gotham-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-Bold.woff2") format("woff2"),
+    url("../fonts/Gotham-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-Black.woff2") format("woff2"),
+    url("../fonts/Gotham-Black.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-Book.woff2") format("woff2"),
+    url("../fonts/Gotham-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-BoldItalic.woff2") format("woff2"),
+    url("../fonts/Gotham-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-BookItalic.woff2") format("woff2"),
+    url("../fonts/Gotham-BookItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-Light.woff2") format("woff2"),
+    url("../fonts/Gotham-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-BookItalic.woff2") format("woff2"),
+    url("../fonts/Gotham-BookItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-Light.woff2") format("woff2"),
+    url("../fonts/Gotham-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-LightItalic.woff2") format("woff2"),
+    url("../fonts/Gotham-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-Medium.woff2") format("woff2"),
+    url("../fonts/Gotham-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-MediumItalic.woff2") format("woff2"),
+    url("../fonts/Gotham-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-Medium.woff2") format("woff2"),
+    url("../fonts/Gotham-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-Thin.woff2") format("woff2"),
+    url("../fonts/Gotham-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-ThinItalic.woff2") format("woff2"),
+    url("../fonts/Gotham-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-UltraItalic.woff2") format("woff2"),
+    url("../fonts/Gotham-UltraItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-XLightItalic.woff2") format("woff2"),
+    url("../fonts/Gotham-XLightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-XLight.woff2") format("woff2"),
+    url("../fonts/Gotham-XLight.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-Black.woff2") format("woff2"),
+    url("../fonts/Gotham-Black.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1360px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+a {
+  text-decoration: none;
+  display: block;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* li {
+  list-style: none;
+} */
+input {
+  outline: none;
+  border: none;
+  background: none;
+}
+button {
+  outline: none;
+  border: none;
+  background: none;
+}
+select {
+  outline: none;
+  border: none;
+  background: none;
+}
+textarea {
+  border: none;
+  outline: none;
+  resize: none;
+}
+@media screen and (max-width: 1279px) {
+  .container {
+    padding: 0 20px;
+  }
+}

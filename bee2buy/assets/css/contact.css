@@ -1,0 +1,201 @@
+.contact-block {
+    margin-bottom: 80px;
+  }
+  .contact-block .contact-block-main-wrapper {
+    margin: 0 -30px;
+  }
+  .contact-block .contact-block-alpha-wrapper,
+  .contact-block .contact-block-beta-wrapper {
+    max-width: 50%;
+    flex: 50%;
+    padding: 0 30px;
+  }
+  .contact-block .contact-block__pre-title {
+    font-size: 26px;
+    text-transform: capitalize;
+    font-family: "Overpass";
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .contact-block .contact-block__title {
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: "Overpass";
+    font-size: 40px;
+  }
+  .contact-block .contact-block__sub-title {
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: "Overpass";
+    letter-spacing: 0.28px;
+  }
+  .contact-block .contact-block__alpha-title-wrap {
+    margin-bottom: 20px;
+  }
+  .contact-block .contact-block__links {
+    margin-right: 15px;
+    font-size: 20px;
+    font-family: "Overpass";
+  }
+  .contact-block .contact-block__description {
+    font-weight: 500;
+    color: #000;
+    letter-spacing: 0.28px;
+    font-family: "Overpass";
+  }
+  .contact-block .contact-block__alpha-link-childs.flex {
+    margin-bottom: 10px;
+  }
+  .form-details {
+    margin-bottom: 80px;
+  }
+  .form-details .form-details__alpha-pre-title, .form-details .input-label-form {
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-bottom: 6px;
+    font-family: "Overpass";
+  }
+  .form-details .form-details__alpha-title {
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 38px;
+    letter-spacing: 0.28px;
+    font-family: "Overpass";
+    margin-bottom: 10px;
+  }
+  .form-details .form-details__inputs {
+    width: 100%;
+  }
+  .form-details .form-details__alpha-title-wrap {
+    margin-bottom: 20px;
+  }
+  .form-details .form-details__input-wrap,
+  .form-details .form-details__textarea-wrap {
+    border: 1px solid #e1e1e1;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #e6e5df;
+    border-bottom-color: #c7c4bb;
+    border-left-color: #c7c4bb;
+    border-radius: 4px;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  }
+  .form-details .form-details__alpha-button-wrap {
+    background: #088178;
+    padding: 15px 10px;
+    max-width: 120px;
+    border-radius: 4px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+  }
+  .form-details .form-details__alpha-button-wrap:hover {
+    background: #0c635d;
+  }
+  .form-details .form-details__btn {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Overpass";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    cursor: pointer;
+  }
+  .form-details .form-details__beta-image-wrap {
+    width: 65px;
+    height: 65px;
+    margin-right: 20px;
+  }
+  .form-details .form-details__main-wrapper {
+    justify-content: space-between;
+    border: 1px solid #e1e1e1;
+    /* margin: 30px; */
+    padding: 80px;
+  }
+  .form-details .form-details-alpha-wrapper {
+    width: 65%;
+  }
+  .form-details .form-details__beta-title {
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: "Overpass";
+    margin-bottom: 8px;
+    font-size: 20px;
+  }
+  .form-details .form-details__beta-text:not(:last-child) {
+    margin-bottom: 4px;
+  }
+  .form-details .form-details__beta-text {
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    font-family: "Overpass";
+  }
+  .form-details .form-details__beta-child-wrap:not(:last-child) {
+    margin-bottom: 25px;
+  }
+  
+  @media screen and (max-width: 1279px) {
+    .form-details .form-details__main-wrapper {
+      padding: 40px;
+    }
+    .form-details .form-details__alpha-pre-title {
+      font-size: 18px;
+    }
+    .form-details .form-details__alpha-title {
+      font-size: 30px;
+    }
+    .contact-block .contact-block__pre-title {
+      font-size: 22px;
+      margin-bottom: 8px;
+    }
+    .contact-block .contact-block__title {
+      margin-bottom: 8px;
+      font-size: 27px;
+    }
+    .contact-block .contact-block-main-wrapper {
+      margin: 0 -25px;
+    }
+    .contact-block .contact-block-alpha-wrapper,
+    .contact-block .contact-block-beta-wrapper {
+      padding: 0 25px;
+    }
+  }
+  
+  @media screen and (max-width: 990px) {
+    .contact-block .contact-block-alpha-wrapper,
+    .contact-block .contact-block-beta-wrapper {
+      max-width: 100%;
+      flex: 100%;
+    }
+    .contact-block .contact-block-main-wrapper {
+      flex-wrap: wrap;
+    }
+    .contact-block .contact-block-alpha-wrapper {
+      margin-bottom: 35px;
+    }
+    .form-details .form-details__main-wrapper {
+      padding: 20px;
+    }
+    .form-details .form-details-alpha-wrapper {
+      width: unset;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .form-details .form-details__main-wrapper {
+      flex-wrap: wrap;
+    }
+    .form-details .form-details-alpha-wrapper {
+      margin-bottom: 40px;
+    }
+  }
+  @media screen and (max-width: 414px) {
+    .form-details {
+      overflow: hidden;
+    }
+  }
+  

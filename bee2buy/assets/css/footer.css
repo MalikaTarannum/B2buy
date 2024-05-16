@@ -1,0 +1,164 @@
+.footer {
+    overflow: hidden;
+    background-color: #f1f0e8;
+}
+.footer .footer-beta-items , .footer .footer-gamma-text , .footer .footer-alpha-contacts-description-detail {
+    font-family: 'Overpass';
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #2222228a;
+    letter-spacing: 0.28px;
+}
+.footer .footer-gamma-text {
+    margin-bottom: 10px;
+}
+.footer .footer-beta-items:hover {
+    color: #088178;
+}
+.footer .footer-main-wrapper {
+    margin: 0 -30px 30px;
+    justify-content: center;
+}
+.footer .footer-alpha-wrapper, .footer .footer-beta-wrapper, .footer .footer-gamma-wrapper {
+    max-width: 33.33%;
+    flex: 33.33%;
+    padding: 0 30px;
+    min-height: 221px;
+}
+.footer .footer-alpha-logo-image {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+.footer .footer-title {
+    font-family: 'Overpass';
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 0.28px;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.footer .footer-beta-link-item {
+    list-style: none;
+}
+.footer-alpha-contacts-description-parent {
+    justify-content: unset;
+}
+.footer .footer-alpha-contacts-description-title {
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Overpass';
+    margin-right: 15px;
+}
+.footer .footer-alpha-contacts-wrap {
+    margin-bottom: 15px;
+}
+.footer .footer-beta-wrapper {
+    margin: 0 -10px;
+}
+.footer .footer-beta-child {
+    max-width: 50%;
+    flex: 50%;
+    padding: 0 10px;
+    min-height: 221px;
+}
+.footer .footer-gamma-images-wrap {
+    margin: 0 -10px 10px;
+}
+.footer .footer-gamma-images {
+    padding: 0 10px;
+}
+.footer .footer-gamma-last-image {
+    max-width: 250px;
+}
+.footer .footer-alpha-contacts-description-wrap {
+    margin-bottom: -10px;
+}
+.footer .footer-alpha-contacts-description-parent {
+    margin-bottom: 10px;
+}
+.footer .footer-beta-links {
+    margin-bottom: -10px;
+}
+.footer .footer-beta-items {
+    margin-bottom: 10px;
+    transition: all .2s ease-in-out;
+}
+.footer .footer-gamma-image {
+    border: 1px solid #088178;
+    border-radius: 6px;
+}
+.header .header-mobile-icon {
+    display: none;
+}
+.last-sec-footer-prnt {
+    margin: 0 -15px;
+}
+.last-sec-footer {
+    padding: 0 15px;
+}
+@media (max-width: 1279px) {
+.footer .footer-alpha-wrapper, .footer .footer-beta-wrapper, .footer .footer-gamma-wrapper {
+    padding: 0 10px;
+}
+.footer .footer-main-wrapper {
+    margin: 0 -10px;
+}
+.footer .footer-beta-wrapper {
+    margin: 0 -4px;
+}
+.footer .footer-beta-child {
+    padding: 0 4px;
+}
+@media screen and (max-width: 990px) {
+}
+.footer .footer-main-wrapper {
+    flex-wrap: wrap;
+}
+.footer .footer-alpha-wrapper, .footer .footer-beta-wrapper, .footer .footer-gamma-wrapper {
+    max-width: 50%;
+    flex: 50%;
+}
+.footer .footer-beta-items, .footer .footer-gamma-text, .footer .footer-alpha-contacts-description-detail {
+    font-size: 17px;
+    text-align: center;
+}
+.footer .center-title {
+    text-align: center;
+}
+.footer .footer-gamma-last-image {
+    margin: 0 auto;
+}
+@media screen and (max-width: 767px) {
+}
+.footer .footer-beta-items, .footer .footer-gamma-text, .footer .footer-alpha-contacts-description-detail {
+    font-size: 20px;
+    text-align: unset;
+}
+.footer .footer-alpha-contacts-description-title {
+    font-size: 23px;
+}
+.footer .footer-main-wrapper {
+    flex-direction: column;
+}
+.footer .footer-title {
+    font-size: 25px;
+}
+.footer .footer-beta-wrapper {
+    margin: 0 -10px;
+    margin-bottom: 32px;
+}
+.footer .footer-beta-child {
+    padding: 0 10px;
+    max-width: 100%;
+    flex: 100%;
+}
+.footer .center-title {
+    text-align: unset;
+}
+.footer .footer-alpha-wrapper, .footer .footer-beta-wrapper, .footer .footer-gamma-wrapper {
+    max-width: unset;
+    flex: unset;
+    padding: unset;
+}
+}

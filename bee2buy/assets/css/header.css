@@ -1,0 +1,242 @@
+.shop-button,
+.product-details-page .shop-button {
+  padding: 6px 10px;
+  font-size: 20px;
+  line-height: 1.33;
+  border-radius: 6px;
+  background-color: #02bdf0;
+  border-color: #04aad7;
+  font-family: "Overpass";
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  white-space: nowrap;
+}
+.shop-button:hover {
+  background-color: #007aff;
+  border-color: #04aad7;
+}
+
+/*=========================== pre-banner starts ===================================*/
+
+.pre-banner {
+  background: #f1f0e8;
+}
+.pre-banner .pre-banner-main-wrapper {
+  padding: 20px 0;
+  justify-content: space-evenly;
+}
+.pre-banner .pre-banner-text {
+  color: #1e385e;
+  text-align: center;
+  font-family: Gotham;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-left: 8px;
+}
+.pre-banner .pre-banner-text-image-wrap:not(:last-child) {
+  margin-right: 60px;
+}
+.pre-banner .pre-banner-image {
+  max-width: 25px;
+  flex: 25px;
+}
+.custom-select {
+  border-color: rgb(153, 137, 137);
+  border: 1px solid rgb(153, 137, 137);
+  border-radius: 4px;
+  background: rgb(11, 189, 237);
+  cursor: pointer;
+}
+.f-center-text {
+  /* color: rgb(255, 255, 255); */
+  font-family: Overpass;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 10px;
+}
+.keyword-search {
+  display: flex;
+  align-items: center;
+}
+.keyword-search-btn {
+  margin-right: 17px;
+}
+.header-last-text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.keyword {
+  border: 1px solid #998989;
+  background: none;
+  padding: 12px 8px;
+}
+.search {
+  background: #02bdf0;
+  padding: 13px 5px;
+  max-width: 75px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  text-align: center;
+}
+.search::placeholder {
+  font-family: "Overpass";
+  font-size: 16px;
+  color: #fff;
+}
+.h-last-text {
+  font-family: "Overpass";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0.36px;
+  color: #02bdf0;
+}
+.flag-img {
+  max-width: 30px;
+  margin-left: 8px;
+}
+@media screen and (max-width: 990px) {
+  .pre-banner .pre-banner-text-image-wrap:not(:last-child) {
+    margin-right: 16px;
+  }
+  .pre-banner .pre-banner-text {
+    font-size: 14px;
+  }
+  .pre-banner .pre-banner-main-wrapper {
+    justify-content: space-between;
+  }
+  .group--button {
+    flex-direction: column;
+  }
+  .button--searches-wrap {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .pre-banner .pre-banner-main-wrapper {
+    padding: 13px 0;
+  }
+  .pre-banner {
+    overflow: hidden;
+  }
+  .pre-banner .pre-banner-main-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: -10px;
+  }
+  .pre-banner .pre-banner-text-image-wrap.flex {
+    margin-bottom: 10px;
+  }
+  .pre-banner .pre-banner-image {
+    max-width: 13px;
+    flex: 13px;
+  }
+  .pre-banner .pre-banner-text {
+    font-size: 13px;
+    white-space: nowrap;
+  }
+}
+@media screen and (max-width: 414px) {
+  .group--button {
+    margin-bottom: 15px;
+  }
+}
+/*=========================== pre-banner ends ===================================*/
+
+.header {
+  background-color: #fafafa;
+  /* background-color: #E3E6F3; */
+  padding: 15px 0;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.header .header-main-wrapper {
+  justify-content: space-between;
+}
+.header .header-items {
+  text-transform: capitalize;
+  font-family: "Overpass";
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: 0.28px;
+  color: #1a1a1a;
+}
+.header .header-items:hover,
+.header .header-items.active {
+  color: #088178;
+}
+.header .header-items.active::after,
+.header .header-items:hover::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+  background: #088178;
+}
+.header .header-list-items {
+  margin: 0 -15px;
+}
+.header .header-logo-wrap {
+  max-width: 160px;
+}
+.header .header-list {
+  padding: 0 15px;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  list-style: none;
+}
+.header #close {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  color: #222;
+  font-size: 24px;
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .header .header-list-items {
+    margin: 0 -15px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width: 300px;
+    background: #e3e6f3;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 80px 0 0 10px;
+  }
+  .header .header-list-items.active {
+    right: 0px;
+  }
+  .header .header-list {
+    margin-bottom: 15px;
+  }
+  .header .header-mobile-icon {
+    display: flex;
+  }
+  .header #close {
+    display: block;
+  }
+  .header .mobile-hidden-bag {
+    display: none;
+  }
+}
